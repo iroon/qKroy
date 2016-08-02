@@ -13,3 +13,4 @@ TooManyStatements:
   exclude:
   - initialize
   max_statements: 8
+
