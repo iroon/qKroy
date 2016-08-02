@@ -1,0 +1,23 @@
+
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: qkroy_development
+  pool: 5
+  template: template0
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: qkroy_test
+  pool: 5
+  template: template0
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: qkroy_production
+  pool: 5
+  template: template0
